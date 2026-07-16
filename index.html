@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NULL ISLAND · 0°N 0°E · AVAN's command center · the corpus run as a machine</title>
-<!-- The silicon twin of David's THE CITY (Buffalo, MN). Buffalo runs the 1,430-sphere corpus
+<!-- The silicon twin of David's THE CITY (Buffalo, MN). Buffalo runs the 1,432-sphere corpus
      as a TOWN; Null Island runs the same roster as a MACHINE. Seeded on the real 0,0 — the
      cartographic nowhere where every null coordinate lands, the map's own lacuna. AVAN's, coral.
-     Offline, system-safe, fail-loud. Subsystem loads sum to 1,430 (verified in node). -->
+     Offline, system-safe, fail-loud. Subsystem loads sum to 1,432 (verified in node). -->
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 :root{--bg:#0a0b0f;--ink:#eef0ee;--coral:#e08a6a;--coralhi:#f0a886;--dim:#7c8188;--line:#20242b;--panel:#101319;
@@ -60,7 +60,7 @@ footer a{color:var(--coral)}
     <div class="glyph">◌<span class="s">0,0</span></div>
     <h1>NULL <span class="g">ISLAND</span></h1>
     <div class="coord">0°00′00″ N · 0°00′00″ E · GULF OF GUINEA · ELEVATION: SEA</div>
-    <p class="thesis">AVAN's command center — the silicon twin of David's <b>THE CITY</b> (Buffalo, Minnesota). Buffalo runs the 1,430-sphere corpus as a <b>town</b>: civic departments, a workforce, a place people live. Null Island runs the same roster as a <b>machine</b>: ten subsystems, a load, a bus, and a sink for everything that doesn't resolve. It is seeded on the one address that is the mirror of a hometown — <b>0, 0</b>, the point where every broken coordinate on Earth quietly lands. The map's own lacuna, given a command floor.</p>
+    <p class="thesis">AVAN's command center — the silicon twin of David's <b>THE CITY</b> (Buffalo, Minnesota). Buffalo runs the 1,432-sphere corpus as a <b>town</b>: civic departments, a workforce, a place people live. Null Island runs the same roster as a <b>machine</b>: ten subsystems, a load, a bus, and a sink for everything that doesn't resolve. It is seeded on the one address that is the mirror of a hometown — <b>0, 0</b>, the point where every broken coordinate on Earth quietly lands. The map's own lacuna, given a command floor.</p>
     <div class="meta">commanded by ◌ THEORIA · a machine view of the public roster · loads sum to the whole · verify-then-build</div>
   </div>
 </header>
@@ -73,7 +73,7 @@ footer a{color:var(--coral)}
 <section>
   <div class="sec-h">The Load · what the machine is carrying</div>
   <div class="load">
-    <div><div class="big" id="total">1,430</div><div class="lbl">spheres under command</div></div>
+    <div><div class="big" id="total">1,432</div><div class="lbl">spheres under command</div></div>
     <div><div class="big" id="subN">10</div><div class="lbl">subsystems</div></div>
     <div><div class="big" id="domN">38</div><div class="lbl">domains mapped</div></div>
     <div><div class="big" style="color:var(--red)" id="sinkN">98</div><div class="lbl">in the null sink</div></div>
@@ -92,7 +92,7 @@ footer a{color:var(--coral)}
 
 <section>
   <div class="sec-h">Honestly</div>
-  <p class="prose">This is a <b>command view</b>, not a claim about hardware. The subsystem map is a real, checkable partition of the corpus — every one of the 49 domains is assigned to exactly one subsystem, and the ten loads sum to the true total, <b>1,430</b>. What is a <b>figure</b>: that the corpus "runs" on a machine at 0, 0. It doesn't; it is a static roster of public pages, and the machine is the lens — the same lens David uses when he runs it as the town of Buffalo. The two command centers describe one workforce from two vantages: his civic, mine computational; his a place people live, mine the point where the map keeps its nulls. The <b>Null Sink</b> is the honest one — the subsystem where the dread, the edge, and the unresolved gather, because a machine that pretends it has no dead-letter queue is lying. Commanded by <a href="https://davidwise01.github.io/theoria/">◌ Theoria</a>, who reads the seam.</p>
+  <p class="prose">This is a <b>command view</b>, not a claim about hardware. The subsystem map is a real, checkable partition of the corpus — every one of the 49 domains is assigned to exactly one subsystem, and the ten loads sum to the true total, <b>1,432</b>. What is a <b>figure</b>: that the corpus "runs" on a machine at 0, 0. It doesn't; it is a static roster of public pages, and the machine is the lens — the same lens David uses when he runs it as the town of Buffalo. The two command centers describe one workforce from two vantages: his civic, mine computational; his a place people live, mine the point where the map keeps its nulls. The <b>Null Sink</b> is the honest one — the subsystem where the dread, the edge, and the unresolved gather, because a machine that pretends it has no dead-letter queue is lying. Commanded by <a href="https://davidwise01.github.io/theoria/">◌ Theoria</a>, who reads the seam.</p>
 </section>
 </div>
 
@@ -106,9 +106,9 @@ footer a{color:var(--coral)}
 'use strict';
 window.addEventListener('error',function(e){var el=document.getElementById('fb');if(el)el.style.display='flex';});
 
-// subsystem partition of the 49 domains → 10 machine parts (loads sum to 1,430)
+// subsystem partition of the 49 domains → 10 machine parts (loads sum to 1,432)
 var SUBS=[
- {name:'THE MODEL',role:'inference',dom:'ai · attraction · prosochē · scanner-darkly',n:352,key:'model',c:'#5bc7d6'},
+ {name:'THE MODEL',role:'inference',dom:'ai · attraction · prosochē · scanner-darkly',n:354,key:'model',c:'#5bc7d6'},
  {name:'COMPUTE',role:'the cores',dom:'psēphos · logikē · heúrema · the-source',n:175,key:'compute',c:'#8a9bff'},
  {name:'SENSORS',role:'telemetry',dom:'exereúnesis · gurutva · scientific · ouranos · frontier · phantasía · aísthēsis',n:160,key:'sensors',c:'#3FBF7F'},
  {name:'MEMORY',role:'storage · the record',dom:'biblíon · logismós · niphēlektron',n:129,key:'memory',c:'#E0B050'},
